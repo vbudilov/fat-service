@@ -1,0 +1,11 @@
+ktor:
+  application:
+    modules:
+      - com.budilov.fat.ApplicationKt.module
+  deployment:
+    port: 8080
+jwt:
+  issuer: "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_d4iSGJK2B"
+  audience: "5irvnptaqojr10kmdip3ljrbp7"
+  audienceWeb: "3nf3rlo8p4vvf2n6p12g42gbk3"
+  realm: "ktor sample app"
